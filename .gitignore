@@ -1,0 +1,46 @@
+# Ignoring object files and executables
+*.o
+*.out
+*.a
+*.so
+
+# Ignoring backup and temporary files
+*~
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Ignoring compiled dynamic libraries
+*.dll
+*.dylib
+
+# Ignoring compiled static libraries
+*.lib
+
+# Ignoring debug files
+*.dSYM/
+*.exe
+
+# Ignoring build directories
+/build/
+/bin/
+/obj/
+/lib/
+/dist/
+
+# Ignoring logs and dumps
+*.log
+*.stackdump
+*.core
+*.pch
+
+# Ignoring specific files
+philo
+philo_bonus
+
+# Ignoring other temporary files
+*.pid
+*.test
+*.orig
+
