@@ -6,7 +6,7 @@
 /*   By: yioffe <yioffe@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/04 18:54:49 by yioffe            #+#    #+#             */
-/*   Updated: 2024/09/17 14:52:59 by yioffe           ###   ########.fr       */
+/*   Updated: 2024/09/19 09:41:04 by yioffe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,7 @@
 int	main(int argc, char **argv)
 {
 	t_config	*config;
-	t_philo		*philos;
 
-	philos = NULL;
 	config = init_config(argc, argv);
 	if (!config)
 		return (EXIT_FAILURE);
